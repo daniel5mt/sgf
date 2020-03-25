@@ -118,7 +118,7 @@
                                                                                     $search = '<span class="tsf-tooltip">'.
                                                                                         get_sub_field('word').
                                                                                         '</span>';
-                                                                                    $replace = '<span data-toggle="tooltip" title="<h3>  .esc_html(get_sub_field('word')).'</h3><p>'.
+                                                                                    $replace = '<span data-toggle="tooltip" title="<h3>'.esc_html(get_sub_field('word')).'</h3><p>'.
                                                                                         esc_html(get_sub_field('tooltip_description')).'</p>">'.
                                                                                         esc_html(get_sub_field('word')).
                                                                                         '</span>';
